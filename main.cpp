@@ -19,10 +19,8 @@ int main() {
 
 	if (mode == 1)
 		p = new Stack<int>();    //Stack for integer
-
 	else
 		p = new LinkedList<int>();
-
 
 	do {
 		prnMenu();

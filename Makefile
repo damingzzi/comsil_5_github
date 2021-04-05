@@ -11,6 +11,7 @@ TARGET = a.out
 
 all : $(TARGET)
 
+
 $(TARGET) : $(OBJS) $(HDRS)
 	$(CXX) -o $@ $(OBJS)
 

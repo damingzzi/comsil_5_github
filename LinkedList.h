@@ -26,9 +26,7 @@ public:
 		current_size = 0;
 	};
 
-	int GetSize() {
-		return current_size;
-	};
+	int GetSize() { return current_size; };
 
 	void Insert(T element);
 

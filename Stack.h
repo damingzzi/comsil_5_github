@@ -1,6 +1,5 @@
 #include "LinkedList.h"
 
-
 template <class T>
 class Stack : public LinkedList<T> {
 public:
