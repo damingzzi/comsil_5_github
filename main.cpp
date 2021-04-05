@@ -4,6 +4,7 @@
 void prnMenu() {
 	cout << "*******************************************" << endl;
 	cout << "* 1. Insert    2. Delete    3. Print   4. Exit *" << endl;
+	cout << "*******************************************\n";
 	cout << "*******************************************" << endl;
 	cout << endl;
 	cout << "Choose menu: ";
