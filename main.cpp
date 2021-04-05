@@ -2,9 +2,9 @@
 #include "Stack.h"
 
 void prnMenu() {
-	cout << "*******************************************" << endl;
-	cout << "* 1. Insert    2. Delete    3. Print   4. Exit *" << endl;
-	cout << "*******************************************" << endl;
+	cout << "*******************************************\n";
+	cout << "* 1. Insert    2. Delete    3. Print   4. Exit *\n";
+	cout << "*******************************************\n";
 	cout << endl;
 	cout << "Choose menu: ";
 }
@@ -30,18 +30,18 @@ int main() {
 		case 1:
 			cout << "Enter an Integer to insert: ";
 			cin >> tmpItem;    p->Insert(tmpItem);
-			cout << tmpItem << " is inserted." << endl;
+			cout << tmpItem << " is inserted.\n";
 			break;
 
 		case 2:
 			if (p->Delete(tmpItem) == true)
-				cout << tmpItem << " is deleted." << endl;
+				cout << tmpItem << " is deleted.\n";
 
-			else cout << "Data is empty" << endl;
+			else cout << "Data is empty\n";
 			break;
 
 		case 3:
-			cout << "Size of data: " << p->GetSize() << endl;
+			cout << "Size of data: " << p->GetSize() << '\n';
 			p->Print();
 			break;
 
@@ -49,7 +49,7 @@ int main() {
 			flag = true;     break;
 
 		default:
-			cout << "Error: Input is not correct." << endl;
+			cout << "Error: Input is not correct.\n";
 			break;
 
 		}
